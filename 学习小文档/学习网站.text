@@ -1,0 +1,69 @@
+http://www.bootcss.com/
+http://www.runoob.com/
+http://10.80.20.5:8095/
+http://daneden.github.io/animate.css/ 动画效果
+http://www.imooc.com/慕课网，IT学习平台
+在线任意图片转Base64编码工具 - aTool在线工具
+http://www.xwbetter.com/
+http://www.w3school.com.cn/
+http://www.zhangxinxu.com/
+http://www.lanrenzhijia.com/---->懒人之家
+http://www.html2jade.org/  (html翻译jade)
+http://blog.csdn.net/ 博客网
+https://cnodejs.org  (NodeJS)
+正则学习网站：
+	http://www.jianshu.com/p/e7bb97218946
+	http://www.php100.com/html/it/biancheng/2015/0320/8825.html
+	https://github.com/jaywcjlove/validator.js
+	https://github.com/jaywcjlove/validator.js/blob/master/dist/validator.js
+
+https://segmentfault.com/
+拓展：
+<marquee>标签 HTML跑马灯
+
+* http://cn.bing.com搜索 ======>>>> 百度
+
+响应式框架类：
+	Bootstrap 
+	Foundation
+	http://foundation.zurb.com/
+
+//ECMA6翻译成ECMA5
+https://babeljs.io/repl/#?babili=false&evaluate=true&lineWrap=false&presets=es2015%2Creact%2Cstage-2&code=let%20num%20%3D%2010%3B%0A%0Ax%20%3D%3E%20num%20%2B%201%3B%0A%0A()%20%3D%3E%20num%20%2B%201%3B%0A%0A()%20%3D%3E%20%7B%0A%20%20if(num%20)%7B%0A%20%20%20%20console.log(%22123%22)%3B%0A%20%20%7D%0A%7D%0A
+
+链接】react-native-vector-icons的简单使用,图片,按钮,标
+http://www.cnblogs.com/moxiaoyan33/p/5482024.html
+
+链接】淘宝NPM镜像
+https://npm.taobao.org/
+
+http://www.tuicool.com/articles/YVZrquq
+/**********************************************************************/
+react-native 发布流程
+	准备工作
+		1.苹果开发者帐号一枚
+			https://developer.apple.com/
+		2.蒲公英应用测试号一枚
+			https://www.pgyer.com/
+	开发者中心
+		1.登陆
+			点击 Certificates,IDs & Profiles
+		2.Devices -> ALL->添加设备UDID
+		3.Identifiers -> App IDs -> 添加APP ID也就是bounld ID
+		4.最下面 Provisioning Profiles -> Distribution->添加描述文件－>点击添加->Ad Hoc->继续->选中之前添加的App ID->继续－>选中证书->继续－>选择设备->继续->添加描述文件名称－进入到下载描述文件页，点击下载
+
+老师的开发者账号：3288703197@qq.com  H59reactnative
+/**********************************************************************/
+
+【链接】flashlizi/cssrem
+https://github.com/flashlizi/cssrem
+
+【链接】amfe/lib-flexible
+https://github.com/amfe/lib-flexible
+<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+
+码农网：http://www.codeceo.com/
+技术博客网站：http://www.w3cplus.com/
+https://segmentfault.com/
+
+小图标==== https://icomoon.io/

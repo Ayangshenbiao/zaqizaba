@@ -1,0 +1,19 @@
+文字光滑：
+    font-smoothing:antialiased;
+    -webkit-font-smoothing: antialiased;	
+    -moz-osx-font-smoothing: grayscale;
+
+预处理语言：面向CSS
+	PostCss	
+	less
+	sass
+
+构建工具：
+	webpack 难学
+	gulp
+	grunt
+	postCss
+	FIS 百度自己做的，已经开源
+	
+
+http://brew.sh/

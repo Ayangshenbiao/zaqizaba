@@ -1,0 +1,1 @@
+自带服务器打开指令：sudo apachectl start (开启)自带服务器重启指令：sudo apachectl restart （重启） 自带服务器停止指令：sudo apachectl stop （停止）自带服务器默认路径：/资源库/WebServer/Documents/

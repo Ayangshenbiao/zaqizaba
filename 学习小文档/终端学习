@@ -1,0 +1,30 @@
+cd 目录名称 进入某个目录
+cd ..返回上级目录
+cd ../.. 放回上级的上级(以此类推)
+pwd 显示你当前的位置目录，是绝对路径
+ls 显示你当前的位置目录下的内容
+clear 输入行提升到第一行
+ctrl键+c  返回初始的输入状态
+medir  创建文件
+rm -rf 删除文件
+
+
+
+Jade:命令
+jade 文件名.jade    =  文件名.html
+加 空格-P           =  无压缩的html 
+加 空格-w           =  html随jade改变而改变  
+加 空格-o空格路径    =  html存放位置
+加 -O空格路径       =  解析外部文件 
+
+
+
+jade插件是html的模块工具
+include 引入一个jade文件成为html片段
+
+
+Sass插件: http://www.w3cplus.com/sassguide/
+	sass --watch XXX.scss:XXX.css --style expanded   //日常式CSS
+						compressed //压缩式CSS
+gulp-clean-css插件：压缩CSS
+gulp-uglify
