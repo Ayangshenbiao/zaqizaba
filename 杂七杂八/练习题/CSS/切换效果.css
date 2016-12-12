@@ -1,0 +1,115 @@
+.a{
+	width: 500px;
+	height: 500px;
+	background-color: red;
+	position: absolute;
+}
+.d1{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 150px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d2{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 225px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d3{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 300px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d1a:hover{
+	width: 500px;
+	height: 500px;
+	background-image:url(/Users/lanou/Desktop/图片/hyrz1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: blue;
+	position: absolute;
+}
+.d2a:hover{
+	width: 500px;
+	height: 500px;
+	background-image:url(/Users/lanou/Desktop/图片/hyrz2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: green;
+	position: absolute;
+}
+.d3a:hover{
+	width: 500px;
+	height: 500px;
+	background-image:url(/Users/lanou/Desktop/图片/hyrz3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: gold;
+	position: absolute;
+}
+.d4{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 350px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d4a:hover{
+	color: yellow;
+}
+.y1{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 150px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d1a:hover .y1{
+	background-color: red;
+}
+.y2{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 225px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d2a:hover .y2{
+	background-color: pink ;
+}
+.y3{
+	width: 30px;
+	height: 30px;
+	background-color: gray;
+	border-radius: 50%;
+	margin-left: 300px;
+	position: absolute;
+	top: 400px;
+	z-index: 1
+}
+.d3a:hover .y3{
+	background-color: red;
+}

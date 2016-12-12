@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style type="text/css">
+			.eyes{
+				perspective: 100000000px;
+			}
+			.box{
+				transform-style: preserve-3d;
+				position: relative;
+				top: 100px;
+				left: 300px;
+				width: 1px;
+				height: 500px;
+				background-color:rgba(0,0,0,0.5);
+				transform: rotateX(0deg) rotateY(0deg);
+				animation: move 10s infinite;
+			}
+			@keyframes move {
+				from{
+					transform: rotateX(-30deg) rotateY(0) rotateZ(0);}
+				to{transform: rotateX(-30deg) rotateY(360000000deg) rotateZ(0deg);}
+			}
+			.box div{
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+				position: absolute;
+				opacity: 0.8;
+			}
+			.a1{
+				background-color: red;
+				transform: translate(-50px,-50px);
+			}
+			.a2{
+				background-color: yellow;
+				transform: translate(-50px,-50px) rotateX(45deg);
+			}
+			.a3{
+				background-color: yellow;
+				transform: translate(-50px,-50px) rotateX(90deg);
+			}
+			.a4{
+				background-color: yellow;
+				transform: translate(-50px,-50px) rotateX(135deg);
+			}
+			.a5{
+				background-color:yellow;
+				transform: translate(-50px,-50px) rotateY(45deg);
+			}
+			.a6{
+				background-color: yellow;
+				transform: translate(-50px,-50px) rotateY(90deg);
+			}
+			.a7{
+				background-color:yellow;
+				transform: translate(-50px,-50px) rotateY(135deg);
+			}
+			.a8{
+				background-color:red;
+				transform: translate(-50px,-50px) rotateY(22.5deg);
+			}
+			.a9{
+				background-color:red;
+				transform: translate(-50px,-50px) rotateY(67.5deg);
+			}
+			.a10{
+				background-color:red;
+				transform: translate(-50px,-50px) rotateX(22.5deg);
+			}
+			.a11{
+				background-color:red;
+				transform: translate(-50px,-50px) rotateX(67.5deg);
+			}
+			.box0{
+				top: 0px;
+				left: 600px;
+			}
+			.box1{
+				top: 100px;
+				left: 600px;
+			}
+			.box2{
+				top: -500px;
+				left: 600px;
+			}
+			.box3{
+				top: -1100px;
+				left: 600px;
+			}
+			.box4{
+				top: -1700px;
+				left: 600px;
+			}
+			.box5{
+				top: -2300px;
+				left: 600px;
+			}
+			.box6{
+				top: -2900px;
+				left: 600px;
+			}
+			.Aeyes{
+				perspective: 10000000000000000px;
+			}
+			.Abox{
+				transform-style: preserve-3d;
+				width: 100px;
+				height: 100px;
+				/*background-color: lightgray;*/
+			}
+		</style>
+	</head>
+	<body>
+		<div class="Aeyes">
+			<div class="Abox">
+				<div class="eyes">
+					<div class="box box0">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+				<div class="eyes">
+					<div class="box box1">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+				<div class="eyes">
+					<div class="box box2">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+				<div class="eyes">
+					<div class="box box3">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+				<div class="eyes">
+					<div class="box box4">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+				<div class="eyes">
+					<div class="box box5">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+				<div class="eyes">
+					<div class="box box6">
+						<div class="a1"></div>
+						<div class="a2"></div>
+						<div class="a3"></div>
+						<div class="a4"></div>
+						<div class="a5"></div>
+						<div class="a6"></div>
+						<div class="a7"></div>
+						<div class="a8"></div>
+						<div class="a9"></div>
+						<div class="a10"></div>
+						<div class="a11"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,276 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin:0; 
+	background-color: #f2f2f2;
+	font-family: 微软雅黑;
+}
+.header{
+	width: 100%;
+	height: 85px;
+	position: fixed;
+	background-color:black;
+	padding-top: 5px;
+	opacity: 0.75;
+	z-index: 10;
+}
+.head1{
+	width: 100%;
+	height: 60px;
+}
+.head2{
+	display: block;
+	width: 132px;
+	height: 40px;
+	margin: 0 auto;
+}
+.head3{
+	text-align: center;
+}
+.head3 a{
+	padding:0 30px; 
+	text-decoration: none;
+	color: lightgray;
+}
+.head3 a:hover{
+	color: white;
+}
+.aaa{
+	width: 600px;
+	height: 337.5px;
+	background-color:lightgray;
+	margin:0 auto; 
+	top: 130px;
+	position: relative;
+}
+.b{
+	width: 10px;
+	height:10px;
+	border-radius: 5px; 
+	background-color:gray;
+	position: absolute;
+	top:360px;
+}
+.a{
+	width: 600px;
+	height: 337.5px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: none;
+}
+.b:hover{
+	background-color: lightgray;
+}
+.aaa a:hover .a{
+	display: block;
+}
+.b1{
+	left: 170px;
+}
+.a1{
+	background-image:url(/Users/lanou/Desktop/映纷创意/CancerBigData.jpg);
+}
+.b2{
+	left: 220px;
+}
+.a2{
+	background-image:url(/Users/lanou/Desktop/映纷创意/bytedanceHD.jpg);
+}
+.b3{
+	left: 270px;
+}
+.a3{
+	background-image:url(/Users/lanou/Desktop/映纷创意/huawei_redpoint.jpg);
+}
+.b4{
+	left: 320px;
+}
+.a4{
+	background-image:url(/Users/lanou/Desktop/映纷创意/toutiaohaoHD.jpg);
+}
+.b5{
+	left: 370px;
+}
+.a5{
+	background-image:url(/Users/lanou/Desktop/映纷创意/UCexplorer.jpg);
+}
+.b6{
+	left: 420px;
+}
+.a6{
+	background-image:url(/Users/lanou/Desktop/映纷创意/yicheHD.jpg);
+}
+.text1{
+	width: 80%;
+	margin: 200px auto 0;
+	background-color: #f2f2f2;
+	text-indent: 2em;
+	line-height: 1.5em;
+	font-size: 0.9em;
+	color: rgb(102, 102, 102);
+	font-family: STKaiti, 微软雅黑;
+	border-top: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(232, 232, 232);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.img2{
+	margin:1% auto;
+}
+.img1{
+	width: 80%;
+	overflow: hidden;
+	text-align: center;
+	margin:2% auto;
+}
+.img1 .img2 img{
+	width: 7%;
+	min-width: 38px;
+}
+.A{
+	position: relative;
+	margin: 0 auto;
+}
+.mengban{
+	background-color:rgba(0,0,0,1);
+}
+.Aa:hover img{
+	opacity:0.5;
+}
+.Aa:hover p{
+	color: black;
+}
+.div{
+	float: left;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+}
+.pp{
+	position:absolute;
+	margin-left:20%;
+	padding-top:15%;
+	color: white;
+	text-align: center;
+	list-style: none;
+	display: none;
+}
+.pp1{
+	font-size:2.5em;
+	text-align: center;
+}
+.Aa:hover .pp{
+	display: block;
+}
+.ddd:hover .pp{
+	display: block;
+}
+.dd1{
+	position: relative;
+}
+.dd2{
+	background-color:rgba(0,0,0,0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display:none;
+}
+.ddd:hover .dd2{
+	display: block;
+}
+.ul{
+
+}
+p{
+	background-color:white;
+	color:#666666;
+	margin:0;
+	text-align: center; 
+	font-family: "微软雅黑";
+	line-height: 2em;
+}
+@media screen and (max-width: 450px) {
+	.div{
+		width: 46%;
+		margin:3% 0 3% 3%;
+	}
+	.A{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 450px) and (max-width: 500px){
+	.div{
+		width: 46%;
+		margin:3% 0 3% 3%;
+	}
+	.A{
+		width: 450px;
+	}
+}
+@media screen and (min-width: 500px) and (max-width: 800px){
+	.div{
+		width: 29.5%;
+		margin:3% 0 3% 3%;
+	}
+}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+	.div{
+		width: 29.5%;
+		margin:3% 0 3% 3%;
+	}
+	.A{
+
+		width: 790px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.div{
+		width: 29.5%;
+		margin:3% 0 3% 3%;
+	}
+	.A{
+		width: 80%;
+		margin-left: 10%;
+	}
+}	
+.footer{
+	width: 100%;
+	height:200px;
+	background: #e0e0e0;
+	float: left;
+	margin-bottom: 0;
+	margin-top:30px;
+}
+.footer_left{
+	width: 49%;
+	height: 100%;
+	float: left;
+}
+.lefta1{
+	display: block;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-right:10px; 
+}
+.footer_right{
+	border-left: 1px solid lightgray;
+	width: 50%;
+	height: 100%;
+	float:left;
+}
+.righta1{
+	width: 30%;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+.righta2{
+	margin-left: 2%;
+	font-size: 0.75rem;
+	font-family: "微软雅黑";
+	color: #666666;
+}

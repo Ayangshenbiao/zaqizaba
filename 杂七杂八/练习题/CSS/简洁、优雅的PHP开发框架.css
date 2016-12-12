@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+}
+.AAA{
+	
+}
+.main{
+	width: 100%;
+	background-image: url(http://image.golaravel.com/5/c9/44e1c4e50d55159c65da6a41bc07e.jpg);
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	
+}
+.main h1:nth-child(1){
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	margin: 0 auto;
+	padding-top: 80px;
+	font-family: inherit;
+}
+.main_a{
+	width: 684px;
+	height: 40px;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+.main_a > a{
+	display: block;
+	height: 38px;
+	border: 1px solid red;
+	border-radius: 3px;
+	float: left; 
+	margin-left: 5px;
+	color: white;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+}
+.main_a a:nth-child(1){
+	width: 108px;
+	margin-left: 0px;
+}
+.main_a a:nth-child(2){
+	width: 108px;
+}
+.main_a a:nth-child(3){
+	width: 108px;
+}
+.main_a a:nth-child(4){
+	width: 108px;
+}
+.main_a a:nth-child(5){
+	width: 130px; 
+}
+.main_a a:nth-child(6){
+	width: 85px; 
+}
+.main_a a:hover{
+	background-color: black;
+}
+.section_wai{
+	width: 100%;
+}
+.section{
+	width:876px;
+	height:60px;
+	margin: 0 auto;
+}
+.section > a{
+	display: block;
+	height: 60px;
+	text-decoration: none;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	color: black;
+}
+.section > a:hover{
+	color: #f4645f;
+}
+.section a:nth-child(1){
+	width: 81px;
+	border-bottom: 2px solid #f16662;
+}
+.section a:nth-child(2){
+	width: 96px;
+}
+.section a:nth-child(3){
+	width: 110px;
+}
+.section a:nth-child(4){
+	width: 110px;
+}
+.section a:nth-child(5){
+	width: 144px;
+}
+.section a:nth-child(6){
+	width: 76px;
+}
+.section a:nth-child(7){
+	width: 141px;
+}
+.section a:nth-child(8){
+	width: 118px;
+}
+.section1{
+	display: none;
+	width:100%;
+	height: 510px;
+	position:relative;
+}
+.aaa{
+	width: 30px;
+	height: 60px;
+	margin: auto;
+}
+.section_tubiao{
+	width: 30px;
+	height: 60px;
+	margin: auto;
+	background-image: url(/Users/lanou/Desktop/练习题/images/屏幕快照\ 2016-08-06\ 上午10.59.41.png);
+	background-repeat: no-repeat;
+}
+@media screen and (max-width: 750px) {
+	.main_a{
+		width:47%;
+		height: 295px;
+		padding-top: 20px;
+	}
+	.main_a >a{
+		height: 38px;
+		margin:5px 0px;
+	}
+	.main_a a:nth-child(1){
+		width:100%;
+	}
+	.main_a a:nth-child(2){
+		width:100%;
+	}
+	.main_a a:nth-child(3){
+		width:100%;
+	}
+	.main_a a:nth-child(4){
+		width:100%;
+	}
+	.main_a a:nth-child(5){
+		width:100%;
+	}
+	.main_a a:nth-child(6){
+		width:100%;
+	}
+	.section{
+		display: none;
+	}
+	.section1{
+		display: block;
+	}
+	.bb{
+		display: none;
+	}
+	.section_tubiao{
+		display: block;
+	}
+	.aaa:hover .bb{
+		display:block;
+	}
+	.bb{
+		width: 85vw;
+		margin-left: -40vw;
+	}
+	.bb > a{
+		text-decoration: none;
+		display: block;
+		width: 100%;
+		line-height: 55px;
+	}
+	.bb > a:hover{
+		color: #f16662;
+	}
+}
+@media screen and (min-width:750px) and (max-width:980px){
+	.section{
+		width: 617px;
+		height: 120px;
+	}
+	.section a:nth-child(7){
+	margin-left: 85px;
+	}	
+}
+.article{
+	width: 100%;
+	height: 1000px;
+	border-top: 2px solid #e1e1e1;
+	background-color:#ebebeb;
+}

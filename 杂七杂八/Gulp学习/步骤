@@ -1,0 +1,34 @@
+1.创建项目文件夹
+2.进入项目文件夹
+3.运行 npm init 然后无限回车 产出package.json的文件
+4.新建gulpfile.js
+5.运行 npm install gulp gulp-jade gulp-sass
+6.创建sass文件目录，jade文件目录
+7.在gulpfile.js 引入插件
+// 引入 require("引入的插件名称");
+
+改变less，就改变css的任务例子
+gulp.task(“watch”,function(){
+	gulp.watch(“less/*.less,[“less”]);
+	gulp.watch(“jade/*.less,[“jade”]);
+})
+
+gulp的安装：
+npm install gulp -g (全局安装）
+终端命令用gulp执行任务
+
+npm install gulp
+
+
+gulp 官方说法：前端自动化构建工具
+
+管理项目以及相关插件的工具平台
+
+jade
+sass
+压缩html
+压缩js
+压缩css
+合并html
+合并js
+合并css

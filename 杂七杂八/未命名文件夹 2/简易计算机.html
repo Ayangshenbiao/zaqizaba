@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>计算器</title>
+	<style>
+		table{
+			width: 600px;
+			margin: 100px auto;
+		}
+		div{
+			text-align: center;
+		}
+		input{
+			border: none;
+			height: 50px;
+			background: #999;
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td><label for="num1">数值1:</label></td>
+			<td><label for="fuhao">符号:</label></td>
+			<td><label for="num2">数值2:</label></td>
+			<td><label for="num2">等于:</label></td>
+		</tr>
+		<tr>
+			<td><input id="num1" type="text" value="0"/></td>
+			<td><input id="fuhao" type="text" value="+"/></td>
+			<td><input id="num2" type="text" value="0"/></td>
+			<td><input type="button" value="="></td>
+		</tr>
+	</table>
+	
+
+	<div>结果：<input type="text" value="0"/></div>
+</body>
+	<script type="text/javascript">
+	var btn = document.querySelector("[type='button']");
+	var display = document.querySelector("div input");
+	var num = "";
+	var fuhao = "";
+	var num2 = "";
+	btn.onclick =function(){
+		num = document.querySelector("#num1").value;
+
+		fuhao = document.querySelector("#fuhao").value;
+		num2 = document.querySelector("#num2").value;
+		if(!isNaN(num) && !isNaN(num2)){
+			yunsuan(num,fuhao,num2);
+		}else{
+			alert("这是计算器，请输入有效数字");
+		}
+	}
+	function yunsuan(x,y,z){
+		if(y == "+"){
+			display.value = Number(x)+Number(z);
+		}else if(y == "-"){
+			display.value = Number(x)-Number(z);
+		}else if(y == "*"){
+			display.value = Number(x)*Number(z);
+		}else if(y == "/"){
+			display.value = Number(x)/Number(z);
+		}
+	}
+	</script>
+
+</html>

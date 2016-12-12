@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>计算器</title>
+	<style>
+		.main {
+			width: 233px;
+			height: 321px;
+			border:1px solid #6a6a6a;
+			margin: 0 auto;
+			border-radius:5px;
+			position:relative;
+			overflow:hidden;
+		}
+		.close {
+			width: 12px;
+			height:12px;
+			border-radius:50%;
+			background:#ff4b45;
+			position:absolute;
+			left:8px;
+			top:5px;
+			cursor: pointer;
+		}
+		.text {
+			height:47px;
+			width:216px;
+			background:#989898;
+			color: white;
+			font-size: 45px;
+			text-align: right;
+			padding:33px 17px 0 0;
+		}
+		table {
+			width: 234px;
+			height: 242px;
+			font-size: 20px;
+		}
+		table td {
+			border-right:1px solid #838383;
+			border-bottom:1px solid #838383;
+			text-align: center;
+			cursor:pointer;
+		}
+		.fu {
+			background:#d0d0d0;
+			width: 56px;
+			height:47px;
+		}
+		.suan,.jieguo {
+			background:#f6872c;
+			color:white;
+		}
+		.shu {
+			background:#dcdcdc;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="close"></div>
+		<div class="text">0</div>
+		<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td class="fu fu1">AC</td>
+				<td class="fu">+/-</td>
+				<td class="fu">%</td>
+				<td class="suan">/</td>
+			</tr>
+			<tr>
+				<td class="shu">7</td>
+				<td class="shu">8</td>
+				<td class="shu">9</td>
+				<td class="suan">*</td>
+			</tr>
+			<tr>
+				<td class="shu">4</td>
+				<td class="shu">5</td>
+				<td class="shu">6</td>
+				<td class="suan">-</td>
+			</tr>
+			<tr>
+				<td class="shu">1</td>
+				<td class="shu">2</td>
+				<td class="shu">3</td>
+				<td class="suan">+</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="shu">0</td>
+				<td class="shu">.</td>
+				<td class="jieguo">=</td>
+			</tr>
+		</table>
+	</div>
+	<script>
+		function $1(x){
+			return document.querySelector(x);
+		}
+		function $2(y){
+			return document.querySelectorAll(y);
+		}
+		var num1=0;
+		var num2=0; 
+		var fuhao='';
+		
+		var ac=$1('.fu1');
+		var dengyu=$1('.jieguo');
+		var text=$1('.text');
+		var suan=$2('.suan');
+		var shu=$2('.shu');
+		ac.onclick=function (){
+			text.innerHTML=0;
+			num1=0;
+			num2=0;
+			fuhao='';
+		}
+
+
+		for(var j=0;j<suan.length;j++){
+			suan[j].onclick=function (){
+				fuhao=this.innerHTML;
+			}
+		}
+		for(var i=0;i<shu.length;i++){
+			shu[i].onclick=function(){
+				text.innerHTML=this.innerHTML;
+				if(fuhao==''){
+					num1=Number(this.innerHTML);
+				}else{
+					num2=Number(this.innerHTML);
+				}
+			}
+		}
+
+		dengyu.onclick=function(){
+			if(fuhao=='+'){
+				text.innerHTML=num1+num2;
+			}else if(fuhao=='-'){
+				text.innerHTML=num1-num2;
+			}else if(fuhao=='*'){
+				text.innerHTML=num1*num2;
+			}else if(fuhao=='/'){
+				text.innerHTML=num1/num2;
+			}
+		}
+
+
+
+	</script>
+</body>
+</html>

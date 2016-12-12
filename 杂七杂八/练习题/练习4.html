@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>练习4</title>
+		<style type="text/css">
+			.eyes{
+				perspective: 1000px;
+			}
+			.box{
+				transform-style: preserve-3d;
+				width: 150px;
+				height:150px;
+				background-color: red;
+				margin-top:400px;
+				margin-left:400px;
+				/*position: absolute;*/
+				transform: rotateX(0deg) rotateY(0deg);
+				animation: don 10s infinite;
+			}
+			@keyframes don{
+				form{transform: rotateX(0deg) rotateY(0deg);}
+				to{transform: rotateX(360deg) rotateY(360deg);}
+			}
+			.box div{
+				width: 150px;
+				height: 150px;
+				font-size: 100px;
+				line-height: 150px;
+				color: white;
+				text-align: center;
+				position:absolute;
+			}
+			.box div:nth-child(1){
+				background-color: rgba(0,0,0,0.5);
+				transform: translateZ(75px);
+			}
+			.box div:nth-child(2){
+				background-color: rgba(200,20,20,0.5);
+				transform: translateZ(-75px);
+			}
+			.box div:nth-child(3){
+				background-color: rgba(33,165,100,0.5);
+				transform: rotateX(90deg) translateZ(75px);
+			}
+			.box div:nth-child(4){
+				background-color: rgba(70,33,150,0.5);
+				transform: rotateX(90deg) translateZ(-75px);
+			}
+			.box div:nth-child(5){
+				background-color: rgba(126,11,93,0.5);
+				transform: rotateY(90deg) translateZ(75px);
+			}
+			.box div:nth-child(6){
+				background-color: rgba(192,198,30,0.5);
+				transform: rotateY(90deg) translateZ(-75px);
+			}
+			/**/
+			.box:hover div:nth-child(1){
+				transform:translateZ(175px) scale(2,2);
+			}
+			.box:hover div:nth-child(2){
+				transform:translateZ(-175px) scale(2,2);
+			}
+			.box:hover div:nth-child(3){
+				transform:rotateX(90deg) translateZ(175px) scale(2,2);
+			}
+			.box:hover div:nth-child(4){
+				transform:rotateX(90deg) translateZ(-175px) scale(2,2);
+			}
+			.box:hover div:nth-child(5){
+				transform:rotateY(90deg) translateZ(175px) scale(2,2);
+			}
+			.box:hover div:nth-child(6){
+				transform:rotateY(90deg) translateZ(-175px)  scale(2,2);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="eyes">
+			<div class="box">
+				<div>1</div>
+				<div>2</div>
+				<div>3</div>
+				<div>4</div>
+				<div>5</div>
+				<div>6</div>
+			</div>
+		</div>
+	</body>
+</html>

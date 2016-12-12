@@ -1,0 +1,30 @@
+$color: green;
+@import "sass1.scss";
+@import "sass2.scss";
+
+$baseFontSize: 10px;
+@function pxToRem($px){
+	@return $px/$baseFontSize *1rem;
+}
+
+body{
+	margin:pxToRem(100px);
+	padding:0;
+	color:red;
+	
+	div{
+		margin:0;
+		padding:0;
+		color:$color;
+		h2{
+			margin:0;
+			padding:0;
+			color:$color;
+			a{
+				img{
+
+				}
+			}
+		}
+	}
+}

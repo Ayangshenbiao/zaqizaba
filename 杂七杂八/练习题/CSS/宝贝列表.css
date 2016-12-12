@@ -1,0 +1,127 @@
+.A{
+	background: #eeeeee;
+	margin:0px auto;
+	border:10px #eeeeee solid;
+}
+.a{
+	width: 661px;
+	height: 651px;
+	background-color:white;
+	background-image: url(../images/图1.gif);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	border: 1px solid white;
+}
+.b{
+	width: 661px;
+	height: 651px;
+	background-color:white;
+	background-image: url(../images/图2.gif);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	margin-top: -653px;
+	margin-left: 672px;
+	border: 1px solid white;
+}
+.c{
+	width: 661px;
+	height: 651px;
+	background-color:white;
+	background-image: url(../images/图3.gif);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	margin-top: 11px;
+	border: 1px solid white;
+}
+.d{
+	width: 661px;
+	height: 651px;
+	background-color:white;
+	background-image: url(../images/图4.gif);
+	background-repeat: no-repeat;
+	background-position: center 20px;
+	margin-top: -653px;
+	margin-left: 672px;
+	border: 1px solid white;
+}
+.tu1{
+	width: 616px;
+	height: 406px;
+	margin-top:20px;
+	margin-left: 22.5px;
+}
+.a1{
+	font-size: 32px;
+	margin-left: 22.5px;
+	margin-top:38px;
+}
+.a2{
+	width: 48px;
+	height: 48px;
+	background-image: url(../images/雪碧法.gif);
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin-top: 28px;
+	margin-left: 20px;
+}
+.a3{
+	color: gray;
+	font-size: 22px;
+	margin-top: -25px;
+	margin-left:87px;
+}
+.a4{
+	color: gray;
+	font-size: 22px;
+	margin-top: -20px;
+	margin-left:600px;
+}
+.a5{
+	color: gray;
+	width: 76px;
+	height: 37px;
+	border-radius: 15px;
+	border:1px gray solid;
+	background-color:#f8f8f8;
+	line-height: 39px;
+	text-align: center;
+	font-size: 23px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.a6{
+	color: gray;
+	width: 76px;
+	height: 37px;
+	border-radius: 15px;
+	border:1px gray solid;
+	background-color:#f8f8f8;
+	line-height: 39px;
+	text-align: center;
+	font-size: 23px;
+	margin-top: -39px;
+	margin-left: 125px;
+}
+.a7{
+	color: gray;
+	width: 76px;
+	height: 37px;
+	border-radius: 15px;
+	border:1px gray solid;
+	background-color:#f8f8f8;
+	line-height: 39px;
+	text-align: center;
+	font-size: 23px;
+	margin-top: -39px;
+	margin-left:229px;
+}
+.a8{
+	width: 36px;
+	height: 36px;
+	background-image: url(../images/雪碧法.gif);
+	background-repeat: no-repeat;
+	background-position:-60px -60px;
+	border-radius: 50%;
+	margin-top: -38px;
+	margin-left:603px;
+}

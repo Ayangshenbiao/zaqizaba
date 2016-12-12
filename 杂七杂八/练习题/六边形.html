@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>六边形</title>
+		<style type="text/css">
+			.eyes{
+				perspective: 12000px;
+				/*perspective-origin: -15% -20%;*/
+			}
+			.box{
+				transform-style: preserve-3d;
+				position: relative;
+				animation: move 10s infinite;
+				margin-top: 200px;
+				margin-left: 500px;
+				transform:rotateX(0deg) rotateY(0deg); 
+			}
+			div{
+				width: 200px;
+				height: 200px;
+				line-height: 200px;
+				text-align: center;
+				color: white;
+				opacity: 0.8;
+				position: absolute;
+			}
+			.a1{
+				background-color: blue;
+			}
+			.a2{
+				background-color: green;
+				transform: rotateX(-90deg);
+				transform-origin: 0px 0px;
+			}
+			.a3{
+				background-color: pink;
+				transform: rotateY(90deg);
+				transform-origin: 0px 0px;
+			}
+			.a4{
+				background-color: red;
+				transform: rotateX(90deg);
+				transform-origin: 0px 200px;
+			}
+			.a5{
+				background-color: black;
+				transform: rotateY(-90deg);
+				transform-origin: 200px 0px;
+			}
+			.a6{
+				background-color: gold;
+				transform: translateZ(-200px);
+			}
+			@keyframes move{
+				from{
+					transform: rotateX(0) rotateY(0) rotateZ(0);}
+				to{transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="eyes">
+			<div class="box">
+				<div class="a1">1</div>
+				<div class="a2">2</div>
+				<div class="a3">3</div>
+				<div class="a4">4</div>
+				<div class="a5">5</div>
+				<div class="a6">6</div>
+			</div>
+		</div>
+	</body>
+</html>

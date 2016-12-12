@@ -1,0 +1,313 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: black;
+}
+.main{
+	width: 100%;
+	height: 667px;
+	overflow: hidden;
+	position: absolute;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/bgimage.jpg);
+	background-size: 100% 667px;
+}
+.img1{
+	width: 100%;
+	height: 667px;
+}
+.section{
+	width: 208px;
+	height: 208px;
+	margin:0 auto;
+	position: relative;
+	top: 90px;
+	perspective: 1000px;
+}
+.a1{
+	width: 98px;
+	height: 208px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/red_bg.png);
+	background-size: 98px 208px;
+	position:absolute;
+	animation: a1don 2s ease-in;
+}
+@keyframes a1don{
+	0%{transform: translateX(-300px);}
+	25%{transform: translateX(-300px);}
+	100%{}
+}
+.a2{
+	width: 208px;
+	height: 211px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/blue_bg.png);
+	background-size: 208px 211px;
+	position: absolute;
+	animation: a2don 2s ease-in;
+}
+@keyframes a2don{
+	0%{transform: translateX(300px);}
+	25%{transform: translateX(300px);}
+	100%{}
+}
+.a3{
+	width: 208px;
+	height: 125px;
+	background-image:url(/Users/lanou/Desktop/练习题/创想家盛典/images/yellow_bg.png); 
+	background-size: 208px 125px;
+	position: absolute;
+	bottom: -500px;
+	animation: a3don 2s ease-in;
+	animation-fill-mode: forwards;
+}
+@keyframes a3don{
+	0%{bottom: -500px;}
+	25%{bottom: -500px;}
+	100%{bottom: 0}
+}
+.a4{
+	width: 44px;
+	height: 60px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/s_blue_d.png);
+	background-size: 44px 60px;
+	position: absolute;
+	top: 74px;
+	animation: a4don 2s ease-in;
+}
+@keyframes a4don{
+	0%{transform: translate(100px,-500px);}
+	25%{transform: translate(100px,-500px);}
+	100%{}
+}
+.a5{
+	width: 15px;
+	height: 17px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/s_red_dian.png);
+	background-size:15px 17px;
+	position: absolute;
+	top: 86px;
+	margin-left: 57px;
+	z-index: 1;
+	animation: a5don 2s ease-in;
+}
+@keyframes a5don{
+	0%{transform: translate(0px,-500px);}
+	25%{transform: translate(0px,-500px);}
+	100%{}
+}
+.a6{
+	width: 50px;
+	height: 108px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/s_gary_jiao.png);
+	background-size: 50px 108px;
+	position: absolute;
+	top: 49px;
+	margin-left: 48px;
+	animation: a6don 2s ease-in;
+}
+@keyframes a6don{
+	0%{transform: translate(100px,-500px);}
+	25%{transform: translate(100px,-500px);}
+	100%{}
+}
+.a7{
+	width: 56px;
+	height: 181px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/s_green.png);
+	background-size: 56px 181px;
+	position: absolute;
+	margin-left:83px;
+	animation: a7don 2s ease-in;
+}
+@keyframes a7don{
+	0%{transform: translate(0px,-500px);}
+	25%{transform: translate(0px,-500px);}
+	100%{}
+}
+.a8{
+	width: 26px;
+	height: 110px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/s_gary_top.png);
+	background-size:26px 110px;
+	position: absolute;
+	margin-left: 113px;
+	animation: a8don 2s ease-in;
+}
+@keyframes a8don{
+	0%{transform: translate(50px,-500px);}
+	25%{transform: translate(50px,-500px);}
+	100%{}
+}	
+.a9{
+	width: 151px;
+	height: 83px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/s_blue_di.png);
+	background-size: 151px 83px;
+	position: absolute;
+	top: 126px;
+	margin-left: 57px;
+	animation: a9don 2s ease-in;
+}
+@keyframes a9don{
+	0%{transform: translate(250px,250px);}
+	25%{transform: translate(250px,250px);}
+	100%{}
+}
+.cen3{
+	width: 100%;
+	height: 100%;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+.b1{
+	width: 26px;
+	height: 41px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/big_d.png);
+	background-size:26px 41px;
+	position: absolute;
+	top: 83px;
+	margin-left: 8px;
+	animation: b1don 3s ease-in;
+}
+@keyframes b1don{
+	0%{transform: translate(-260px,0px);}
+	66%{transform: translate(-260px,0px);}
+	67%{transform: translateX(0px) translateY(0px) translateZ(500px);}
+	100%{}
+}
+.b2{
+	width: 160px;
+	height: 137px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/r_am.png);
+	background-size: 160px 137px;
+	position: absolute;
+	top: 72px;
+	margin-left: 48px;
+	transform: translateZ(500px);
+	animation: b2don 3s ease-in;
+	animation-fill-mode: forwards;
+}
+@keyframes b2don{
+	0%{transform: translateZ(500px); opacity: 0;}
+	66%{transform: translateZ(500px); opacity: 0;}
+	100%{transform: translateZ(0px); opacity: 1;}
+}
+.b3{
+	width: 28px;
+	height: 61px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/big_e.png);
+	background-size:28px 61px;
+	position: absolute;
+	top: 75px;
+	margin-left: 83px;
+	transform: translateZ(500px);
+	animation: b3don 3s ease-in;
+	animation-fill-mode: forwards;
+}
+@keyframes b3don{
+	0%{transform: translateZ(500px); opacity: 0;}
+	66%{transform: translateZ(500px); opacity: 0;}
+	100%{transform: translateZ(0px); opacity: 1;}
+}
+.b4{
+	width: 150px;
+	height: 26px;
+	position: absolute;
+	top: 183px;
+	margin-left:58px; 
+	transform: translateZ(500px);
+	animation: b4don 3.2s ease-in;
+	animation-fill-mode: forwards;
+}
+@keyframes b4don{
+	0%{transform:translateX(50px) translateZ(200px); opacity: 0;}
+	75%{transform:translateX(50px) translateZ(200px); opacity: 0;}
+	100%{transform: translateZ(0px); opacity: 1;}
+}
+.b4 > div{
+	height: 28px;
+	float: left;
+	margin-left: 5px;
+}
+.b4 div:nth-child(1){
+	margin-left: 0px;
+	width: 35px;
+	background-size: 35px 28px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/m.png);
+}
+.b4 div:nth-child(2){
+	width: 30px;
+	background-size: 30px 28px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/a.png);
+}
+.b4 div:nth-child(3){
+	width: 25px;
+	background-size: 25px 28px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/k.png);
+}
+.b4 div:nth-child(4){
+	width: 17px;
+	background-size: 17px 28px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/e.png);
+}
+.b4 div:nth-child(5){
+	width: 22px;
+	background-size: 22px 28px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/r.png);
+}
+.lx1{
+
+}
+
+.wenzi{
+	width:100%;
+	height: 60px;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	line-height: 30px;
+	position:absolute;
+	bottom: 90px;
+	animation: wenzidon 4s ease-in;
+	animation-fill-mode: forwards;
+	transform: scale(0);
+}
+@keyframes wenzidon{
+	75%{transform: scale(0);}
+	100%{transform: scale(1);}
+}
+.footer{
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	bottom: 5px;
+}
+.f1{
+	width: 30px;
+	height: 15px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/button_next.png);
+	background-size: 30px 15px;
+	margin: 0 auto;
+	animation: f1don 1.5s ease-in-out infinite;
+}
+@keyframes f1don{
+	0%{}
+	50%{transform: translateY(10px);}
+	100%{}
+}
+.f2{
+	width: 30px;
+	height: 30px;
+	background-image: url(/Users/lanou/Desktop/练习题/创想家盛典/images/music_img.png);
+	background-size: 30px 30px;
+	position: absolute;
+	left: 100%;
+	margin-left: -40px;
+	margin-top: -15px;
+	animation: f2don 2s linear infinite;
+}
+@keyframes f2don{
+	0%{}
+	100%{transform: rotate(360deg);}
+}

@@ -1,0 +1,83 @@
+.form{
+	background-color: lightgray;
+	margin:0 auto;
+}
+.a1{
+	margin-left: 60px;
+}
+.text1{
+	margin-top: 20px;
+}
+.text1:hover{
+	background-color: #eeffc9;
+}
+.a2{
+	margin-left: 35px;
+}
+.a2a1{
+	border: none;
+	background-color: lightgray;
+	margin-left: 30px;
+	color: #4897d0;
+}
+.a3{
+	background-color: #eeffc9;
+	width: 300px;
+	height: 20px;
+	line-height: 20px;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: -20px;
+	margin-left: 270px;
+	font-size: 15px;
+}
+.a4{
+	margin-left: 45px;
+}
+.a5{
+	margin-left: 61px;
+}
+.a6{
+	margin-left: 68px;
+}
+.a7{
+	margin-left: 35px;
+}
+.a8{
+	margin-left: 35px;
+}
+.a8a1{
+	font-size: 10px;
+}
+.a2a2{
+	margin-left: 33px;
+}
+.href1{
+	text-decoration:none; 
+	color: blue;
+}
+.a9{
+	margin-left: 70px;
+}
+.b1{
+	margin-left: 64px;
+}
+.b2{
+	margin-left: 18px;
+}
+.b3{
+	margin-top: -20px;
+	margin-left: 120px;
+}
+.c1{
+	margin-left: 120px;
+}
+.c2{
+	margin-left: 37px;
+}
+.c4{
+	margin-left: 120px;
+	background-color: #5bb037;
+	border:1px solid #449e22;
+	border-radius: 3px;
+}

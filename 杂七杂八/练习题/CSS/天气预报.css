@@ -1,0 +1,26 @@
+table{
+	border: 1px red solid;
+}
+table td{
+	/*
+	可以通过css样式给td设置border
+	设置border默认的是会挤压td的内容大小，当宽度达到内容大小的时候
+	继续加宽border会导致整个表的宽度改变。
+	*/
+	text-align: center;
+	border: 1px gold solid;
+	/*设置内容竖直方向的位置
+		top 顶部
+		bottom 底部
+		middle 中间(默认的)
+	*/
+	vertical-align: middle;
+	background-color: pink;
+}
+tr .aaa:hover{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	display: block;
+	margin:auto;
+}

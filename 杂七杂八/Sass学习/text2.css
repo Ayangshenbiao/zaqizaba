@@ -1,0 +1,20 @@
+/*CSS引入其他的css文件性能差*/
+/*用Sass引入sass文件较好*/
+@import "text.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+body div {
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+body div h2 {
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+

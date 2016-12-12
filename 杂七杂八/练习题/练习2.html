@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style type="text/css">
+			.eyes{
+				perspective: 10000px;
+				/*perspective-origin: 50% -30%;*/
+			}
+			.box{
+				transform-style: preserve-3d;
+				position: relative;
+				top: 400px;
+				left:500px;
+				width:0px;
+				animation: move 10s infinite;
+			}
+			.box div{
+				width: 200px;
+				height: 200px;
+				opacity: 0.5;
+				position: absolute;
+			}
+			.a1{
+				background-color: red;
+				transform: translateZ(300px) translateX(-100px);
+			}
+			.a2{
+				background-color: blue;
+				transform: translateZ(150px) translateX(200px) rotateY(60deg);
+			}
+			.a3{
+				background-color: purple;
+				transform: translateZ(-150px) translateX(200px) rotateY(120deg);
+			}
+			.a4{
+				background-color: pink;
+				transform: translateZ(-300px) translateX(-100px);
+			}
+			.a5{
+				background-color: green;
+				transform: translateZ(-150px) translateX(-400px) rotateY(60deg);
+			}
+			.a6{
+				background-color: gray;
+				transform: translateZ(150px) translateX(-400px) rotateY(120deg);
+			}
+			/*.box:hover{
+				transform: rotateY(360deg);
+				transition: all ease 10s;
+			}*/
+			@keyframes move{
+				from{
+					transform: rotateX(-30deg) rotateY(0) rotateZ(0);}
+				to{transform: rotateX(-30deg) rotateY(360deg) rotateZ(0deg);}
+			}
+		</style>
+	</head
+	<body>
+		<div class="eyes">
+			<div class="box">
+				<div class="a1"></div>
+				<div class="a2"></div>
+				<div class="a3"></div>
+				<div class="a4"></div>
+				<div class="a5"></div>
+				<div class="a6"></div>
+			</div>
+		</div>
+	</body>
+</html>

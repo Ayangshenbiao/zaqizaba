@@ -1,0 +1,25 @@
+body {
+  border: 100px green solid;
+}
+
+body {
+  background: yellow;
+}
+
+body {
+  margin: 10rem;
+  padding: 0;
+  color: red;
+}
+body div {
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+body div h2 {
+  margin: 0;
+  padding: 0;
+  color: green;
+}
+
+/*# sourceMappingURL=sass.css.map */

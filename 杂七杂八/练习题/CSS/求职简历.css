@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+}
+table{
+	margin:0 auto;
+}
+td{
+	width: 60px;
+	height: 25px;
+}
+.a1{
+	height: 50px;
+}.a{
+	background-color: #f2dbdb;
+	font-size: 10px;
+}
